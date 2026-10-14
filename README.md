@@ -1,6 +1,6 @@
 # MPLADS Fraud-Detection System
 
-**SIH 2026 · Smart India Hackathon** — Real-time fraud detection for the **Members of Parliament Local Area Development Scheme (MPLADS)** using public Government of India data.
+ Real-time fraud detection for the **Members of Parliament Local Area Development Scheme (MPLADS)** using public Government of India data.
 
 Built for **government enforcement / investigation agencies** (ED, CBI, CVC, state ACBs) — not a public dashboard. Output is an **investigative evidence trail** that flags suspicious works, states what was done, and points to the applicable legal route.
 
@@ -207,8 +207,3 @@ python scripts/similarity_demo.py
 ```
 
 ---
-
-## Demo Scope (SIH judging)
-
-- **30–60% MVP**: LS chamber end-to-end, offline snapshot export (zero live API at demo time).
-- **Stretch**: RS chamber, fine-tuned model, feedback loop (agency confirmation → labeled data → retrain).
